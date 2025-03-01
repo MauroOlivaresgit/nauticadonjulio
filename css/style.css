@@ -25,6 +25,19 @@
     padding: 10px;
 }
 
+
+/*media querie mobile*/
+
+@media(max-width:500px){
+    .container{
+        padding: 0;
+        margin:0; 
+    }
+    
+    .ul-nav { 
+        flex-direction: column;   
+    }
+}
 /* banner imagen*/
 .banner{
     background-color: whitesmoke;
@@ -158,6 +171,17 @@ text-decoration: none;
 .tipos-embarcaciones{
     text-align: center;
 
+}
+.tipos-embarcaciones div p{
+    text-align: justify;
+
+
+}
+.embarcaciones-preguntas{
+    font-style: italic;
+}
+.embarcaciones-descripcion{
+    padding: 3%;
 }
 .embarcacion-item{
     background-color:#32327d;
