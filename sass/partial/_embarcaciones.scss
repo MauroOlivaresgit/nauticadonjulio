@@ -4,7 +4,7 @@
     .titulo-embarcaciones{
         text-align: center;
         position: relative;
-        .titulo-embarcaciones p{
+         p{
             padding: 5%;
             background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
             font-style:italic ;
@@ -16,7 +16,7 @@
         
         
          }
-        .titulo-embarcaciones img{
+        img{
             max-height: 700px;
         
         }
@@ -40,6 +40,7 @@
             color: whitesmoke;
         
         }
+
     
     }
  }
