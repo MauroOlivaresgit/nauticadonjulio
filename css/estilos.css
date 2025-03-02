@@ -1,24 +1,24 @@
 /*#222279 color azul*/
-/*#222279 color azul*/
 .html {
   padding: 0;
   margin: 0;
 }
 
-.header .navbar-item {
+.navbar-item {
   display: flex;
   padding: 0;
   margin: 0;
 }
-.header .navbar-item .container {
+
+.container {
   display: flex;
   font-family: nunito;
 }
-.header .navbar-item .container .ul-nav {
+.container .ul-nav {
   list-style-type: none;
   display: flex;
 }
-.header .navbar-item .container .ul-nav li a {
+.container .ul-nav li a {
   text-decoration: none;
   display: block;
   padding: 10px;
@@ -44,16 +44,17 @@
   text-decoration: none;
 }
 
-.main-index .banner {
+.banner {
   background-color: whitesmoke;
 }
-.main-index .banner .banner p {
+.banner p {
   text-align: center;
   border-color: #b5b463;
   border-width: 1px 0px 0px;
   border-style: solid;
 }
-.main-index .banner .grid-servicios {
+
+.grid-servicios {
   display: grid;
   background-color: whitesmoke;
   grid-template-columns: 1fr 1fr 1fr;
@@ -63,7 +64,7 @@
   border-width: 2px 0px 2px;
   border-style: solid solid solid;
 }
-.main-index .banner .grid-servicios .grid-titulo1 {
+.grid-servicios .grid-titulo1 {
   grid-area: grid-titulo1;
   padding: 0;
   margin: 0;
@@ -72,19 +73,19 @@
   color: whitesmoke;
   font-family: nunito;
 }
-.main-index .banner .grid-servicios .grid-cul1 {
+.grid-servicios .grid-cul1 {
   grid-area: grid-cul1;
   padding: 5px;
   text-align: center;
   border-radius: 2%;
   border-color: black;
 }
-.main-index .banner .grid-servicios .grid-cul2 {
+.grid-servicios .grid-cul2 {
   grid-area: grid-cul2;
   padding: 5px;
   text-align: center;
 }
-.main-index .banner .grid-servicios .grid-cul3 {
+.grid-servicios .grid-cul3 {
   grid-area: grid-cul3;
   padding: 5px;
   text-align: center;

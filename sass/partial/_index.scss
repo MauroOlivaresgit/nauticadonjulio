@@ -1,13 +1,14 @@
-.main-index{
+
     .banner{
         background-color: whitesmoke;
-        .banner p{
+        p{
             text-align: center;
             border-color: #b5b463;
             border-width: 1px 0px 0px;
             border-style: solid;
         }
-        .grid-servicios{
+    }
+    .grid-servicios{
             display: grid;
             background-color: whitesmoke;
             grid-template-columns: 1fr 1fr 1fr;
@@ -45,6 +46,4 @@
                 text-align: center;
             }
         }
-    }
-
-}
+    
