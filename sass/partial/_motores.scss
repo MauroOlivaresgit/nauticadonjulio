@@ -1,0 +1,39 @@
+.main-motores{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-color: #32327d;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid solid solid;
+    .main-motores h2{
+        text-align: center;
+    }
+    .carousel-inner{
+        max-height: 400px;
+    }
+    .motores-emblema{
+    padding: 2% ;
+    margin-top: 5%;
+    font-style: italic;
+    }
+    .motores-vendidos {
+        text-align: center;
+        padding: 3%;
+        background-color: #32327d;
+        color: whitesmoke
+        }
+        .motores-item{
+            padding: 10px;
+            display: flex;
+            max-width: 100%;
+            .motores-item div{
+                display: block;
+                padding: 5px;
+            }
+            .motores-item div img{
+                max-height: 300px;
+                max-width: 100%;
+            
+            }
+        }
+   
+}

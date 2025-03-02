@@ -1,0 +1,224 @@
+/*#222279 color azul*/
+/*#222279 color azul*/
+.html {
+  padding: 0;
+  margin: 0;
+}
+
+.header .navbar-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.header .navbar-item .container {
+  display: flex;
+  font-family: nunito;
+}
+.header .navbar-item .container .ul-nav {
+  list-style-type: none;
+  display: flex;
+}
+.header .navbar-item .container .ul-nav .ul-nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.pie-de-pagina {
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  background-color: rgb(50, 50, 125);
+}
+.pie-de-pagina .pie-de-pagina div {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  max-width: 100%;
+}
+.pie-de-pagina .pie-de-pagina div .pie-de-pagina div a {
+  text-decoration: none;
+}
+.pie-de-pagina .pie-de-pagina div .pie-de-pagina div ul a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.main-index .banner {
+  background-color: whitesmoke;
+}
+.main-index .banner .banner p {
+  text-align: center;
+  border-color: #b5b463;
+  border-width: 1px 0px 0px;
+  border-style: solid;
+}
+.main-index .banner .grid-servicios {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 90%;
+  grid-template-areas: "grid-titulo1 grid-titulo1 grid-titulo1" "grid-cul1 grid-cul2 grid-cul3";
+  border-color: #b5b463 whitesmoke #b5b463;
+  border-width: 2px 0px 2px;
+  border-style: solid solid solid;
+}
+.main-index .banner .grid-servicios .grid-titulo1 {
+  grid-area: grid-titulo1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #32327d;
+  color: whitesmoke;
+  font-family: nunito;
+}
+.main-index .banner .grid-servicios .grid-cul1 {
+  grid-area: grid-cul1;
+  padding: 5px;
+  text-align: center;
+  border-radius: 2%;
+  border-color: black;
+}
+.main-index .banner .grid-servicios .grid-cul2 {
+  grid-area: grid-cul2;
+  padding: 5px;
+  text-align: center;
+}
+.main-index .banner .grid-servicios .grid-cul3 {
+  grid-area: grid-cul3;
+  padding: 5px;
+  text-align: center;
+}
+
+.main-laempresa {
+  background-color: whitesmoke;
+  padding: 5px;
+}
+.main-laempresa .titulo-historia {
+  text-decoration: none;
+  font-family: nunito;
+  text-align: center;
+  border-color: #b5b463 whitesmoke #b5b463;
+  border-width: 2px 0px 0px;
+  border-style: solid solid solid;
+}
+.main-laempresa .grid-historia p {
+  font-style: italic;
+}
+
+.main-embarcaciones {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.main-embarcaciones .titulo-embarcaciones {
+  text-align: center;
+  position: relative;
+}
+.main-embarcaciones .titulo-embarcaciones .titulo-embarcaciones p {
+  padding: 5%;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  font-style: italic;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+.main-embarcaciones .titulo-embarcaciones .titulo-embarcaciones img {
+  max-height: 700px;
+}
+.main-embarcaciones .tipos-embarcaciones {
+  text-align: center;
+}
+.main-embarcaciones .tipos-embarcaciones .tipos-embarcaciones div p {
+  text-align: justify;
+}
+.main-embarcaciones .tipos-embarcaciones .embarcaciones-preguntas {
+  font-style: italic;
+}
+.main-embarcaciones .tipos-embarcaciones .embarcaciones-descripcion {
+  padding: 3%;
+}
+.main-embarcaciones .tipos-embarcaciones .embarcacion-item {
+  background-color: #32327d;
+  padding: 2%;
+  color: whitesmoke;
+}
+
+.main-motores {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-color: #32327d;
+  border-width: 2px 0px 0px 0px;
+  border-style: solid solid solid;
+}
+.main-motores .main-motores h2 {
+  text-align: center;
+}
+.main-motores .carousel-inner {
+  max-height: 400px;
+}
+.main-motores .motores-emblema {
+  padding: 2%;
+  margin-top: 5%;
+  font-style: italic;
+}
+.main-motores .motores-vendidos {
+  text-align: center;
+  padding: 3%;
+  background-color: #32327d;
+  color: whitesmoke;
+}
+.main-motores .motores-item {
+  padding: 10px;
+  display: flex;
+  max-width: 100%;
+}
+.main-motores .motores-item .motores-item div {
+  display: block;
+  padding: 5px;
+}
+.main-motores .motores-item .motores-item div img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.main-contacto {
+  background-color: #32327d;
+  text-align: center;
+  color: whitesmoke;
+  padding: 2%;
+  font-size: 200%;
+}
+
+.ubicacion-item {
+  display: flex;
+  background-color: whitesmoke;
+  max-width: 100%;
+  height: 400px;
+}
+.ubicacion-item .ubicacion-item div {
+  padding: 2px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .container .ul-nav {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .grid-servicios {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .motores-item {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=estilos.css.map */

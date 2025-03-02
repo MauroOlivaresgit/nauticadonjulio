@@ -1,0 +1,19 @@
+//main contacto
+.main-contacto{
+    background-color: #32327d;
+    text-align: center;
+    color: whitesmoke;
+    padding: 2%;
+    font-size: 200%;
+
+}
+.ubicacion-item{
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 100%;
+    height: 400px;
+    .ubicacion-item div {
+        padding: 2px;
+    
+    }
+}

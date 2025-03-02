@@ -1,0 +1,27 @@
+//media q generales
+@media(max-width:500px){
+    .container{
+        padding: 0;
+        margin:0; 
+        .ul-nav { 
+            flex-direction: column;   
+        }
+    }
+}
+
+//media q page index
+@media(max-width:500px){
+    .grid-servicios{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        
+    }
+
+}
+//media q page motores
+@media(max-width:500px){
+    .motores-item{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,45 @@
+.main-embarcaciones{
+    background-color: whitesmoke;
+    padding: 20px;
+    .titulo-embarcaciones{
+        text-align: center;
+        position: relative;
+        .titulo-embarcaciones p{
+            padding: 5%;
+            background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
+            font-style:italic ;
+            position: absolute;
+            top: 9%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: whitesmoke;
+        
+        
+         }
+        .titulo-embarcaciones img{
+            max-height: 700px;
+        
+        }
+     }
+    .tipos-embarcaciones{
+        text-align: center;
+        .tipos-embarcaciones div p{
+            text-align: justify;
+        
+        
+        }
+        .embarcaciones-preguntas{
+            font-style: italic;
+        }
+        .embarcaciones-descripcion{
+            padding: 3%;
+        }
+        .embarcacion-item{
+            background-color:#32327d;
+            padding: 2%;
+            color: whitesmoke;
+        
+        }
+    
+    }
+ }
