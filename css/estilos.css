@@ -1,4 +1,3 @@
-/*#222279 color azul*/
 .html {
   padding: 0;
   margin: 0;
@@ -28,7 +27,7 @@
   padding: 5%;
   margin: 0;
   display: flex;
-  background-color: rgb(50, 50, 125);
+  background-color: #32327d;
 }
 .pie-de-pagina div {
   padding: 0;

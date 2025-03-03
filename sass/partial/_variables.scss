@@ -1,0 +1,11 @@
+//paleta de colores
+$miazul: #32327d;
+$midorado: #b5b463;
+
+//mixing
+
+@mixin tamanio ($alto,$ancho){
+    max-height: $alto;
+    max-width: $ancho;
+
+}
