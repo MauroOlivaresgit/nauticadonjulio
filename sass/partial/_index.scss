@@ -16,7 +16,7 @@
             grid-template-areas: 
             "grid-titulo1 grid-titulo1 grid-titulo1"
             "grid-cul1 grid-cul2 grid-cul3";
-            border-color: #b5b463 whitesmoke #b5b463;
+            border-color: $midorado whitesmoke $midorado;
             border-width: 2px 0px 2px;
             border-style: solid solid solid;
             .grid-titulo1{
@@ -24,7 +24,7 @@
                 padding: 0;
                 margin:0;
                 text-align: center;
-                background-color: #32327d;
+                background-color: $miazul;
                 color: whitesmoke;
                 font-family: nunito ;
             }

@@ -1,7 +1,7 @@
 .main-motores{
     background-color: whitesmoke;
     padding: 20px;
-    border-color: #32327d;
+    border-color: $miazul;
     border-width: 2px 0px 0px 0px;
     border-style: solid solid solid;
     h2{
@@ -18,7 +18,7 @@
     .motores-vendidos {
         text-align: center;
         padding: 3%;
-        background-color: #32327d;
+        background-color: $miazul;
         color: whitesmoke
         }
         .motores-item{
