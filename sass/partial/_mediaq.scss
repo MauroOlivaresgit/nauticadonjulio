@@ -9,6 +9,16 @@
     }
 }
 
+//media q la empresa
+@media(min-width:800px){
+    .img-historia{
+        padding: 20px;
+    }
+
+}
+
+
+
 //media q page index
 @media(max-width:500px){
     .grid-servicios{

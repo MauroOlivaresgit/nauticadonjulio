@@ -92,7 +92,7 @@
 
 .main-laempresa {
   background-color: whitesmoke;
-  padding: 5px;
+  padding: 10%;
 }
 .main-laempresa .titulo-historia {
   text-decoration: none;
@@ -155,9 +155,6 @@
 .main-motores h2 {
   text-align: center;
 }
-.main-motores .carousel-inner {
-  max-height: 400px;
-}
 .main-motores .motores-emblema {
   padding: 2%;
   margin-top: 5%;
@@ -208,6 +205,11 @@
   }
   .container .ul-nav {
     flex-direction: column;
+  }
+}
+@media (min-width: 800px) {
+  .img-historia {
+    padding: 20px;
   }
 }
 @media (max-width: 500px) {
