@@ -188,14 +188,33 @@
   font-size: 200%;
 }
 
-.ubicacion-item {
+.ubicacion {
+  display: flex;
+  background-color: whitesmoke;
+}
+.ubicacion .ubicacion-item {
   display: flex;
   background-color: whitesmoke;
   max-width: 100%;
-  height: 400px;
+  height: 90%;
+  text-decoration: none;
 }
-.ubicacion-item div {
-  padding: 2px;
+.ubicacion .ubicacion-item div iframe {
+  padding: 5%;
+  height: 500px;
+  width: 800px;
+}
+.ubicacion .ubicacion-item div ul {
+  padding: 5%;
+}
+.ubicacion .ubicacion-item div ul li {
+  list-style-type: none;
+  padding: 5%;
+}
+
+.formulario-contacto {
+  background-color: whitesmoke;
+  padding: 5%;
 }
 
 @media (max-width: 500px) {
@@ -222,5 +241,14 @@
 @media (max-width: 500px) {
   .motores-item {
     flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .ubicacion {
+    flex-direction: column;
+  }
+  .ubicacion .ubicacion-item .mapa {
+    height: 200px;
+    width: 500px;
   }
 }/*# sourceMappingURL=estilos.css.map */

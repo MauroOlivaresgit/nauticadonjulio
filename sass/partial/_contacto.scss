@@ -1,5 +1,5 @@
 //main contacto
-.main-contacto{
+.main-contacto {
     background-color: $miazul;
     text-align: center;
     color: whitesmoke;
@@ -7,13 +7,38 @@
     font-size: 200%;
 
 }
-.ubicacion-item{
+
+.ubicacion {
     display: flex;
     background-color: whitesmoke;
-    max-width: 100%;
-    height: 400px;
-    div {
-        padding: 2px;
-    
+
+    .ubicacion-item {
+        display: flex;
+        background-color: whitesmoke;
+        max-width: 100%;
+        height: 90%;
+        text-decoration: none;
+
+        div {
+            iframe {
+                padding: 5%;
+                height: 500px;
+                width: 800px;
+            }
+
+            ul{padding: 5%;
+            li {
+                list-style-type: none;
+                padding: 5%;
+
+            }
+        }
+
+        }
+
     }
 }
+    .formulario-contacto {
+        background-color: whitesmoke;
+        padding: 5%;
+    }

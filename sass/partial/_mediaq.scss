@@ -35,3 +35,18 @@
         flex-direction: column;
     }
 }
+ //media q contacto
+
+ @media(max-width:500px){
+    .ubicacion{
+        flex-direction: column;
+        .ubicacion-item{
+            .mapa{
+                height: 200px;
+                width: 500px;
+            }
+        }
+    
+    }
+    
+}
