@@ -6,26 +6,18 @@
 }
 
 // Comienzo css header
-    .navbar-item{
-        display: flex;
-        padding: 0;
-        margin: 0;}
+    .container-fluid{
+        .navbar-nav li a{
+            list-style-type: none;
+            text-decoration: none;
+            padding: 10px;
+            color: $miazul;
 
-    .container{
-            display: flex;
-            font-family: nunito;
-            .ul-nav {
-                list-style-type: none;
-                display: flex;
-                li a{
-                    text-decoration: none;
-                    display: block;
-                    padding: 10px;
-                }
-                
-            }
-        
         }
+        .navbar-nav li :hover {
+            color: $midorado;
+        }
+    } 
 
 // Comienzo css footer
 .pie-de-pagina{
