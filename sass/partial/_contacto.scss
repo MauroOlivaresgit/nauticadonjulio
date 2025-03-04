@@ -22,22 +22,25 @@
         div {
             iframe {
                 padding: 5%;
-                height: 500px;
+                height: 800px;
                 width: 800px;
             }
 
-            ul{padding: 5%;
-            li {
-                list-style-type: none;
+            ul {
                 padding: 5%;
 
+                li {
+                    list-style-type: none;
+                    padding: 5%;
+                }
+
             }
-        }
 
         }
 
     }
 }
+
     .formulario-contacto {
         background-color: whitesmoke;
         padding: 5%;
