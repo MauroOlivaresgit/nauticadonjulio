@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1524492449090-8e1cffe4c5c3') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(0, 51, 102, 0.85);
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 5em;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, legend {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  select, button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+  
+  button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2em;
+  }
+  
+  button:hover {
+    background-color: #0077aa;
+  }
+  
+  

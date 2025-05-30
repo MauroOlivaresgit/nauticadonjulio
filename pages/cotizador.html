@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cotizador Náutico</title>
+  <link rel="stylesheet" href="../css/stylejs.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cotizacion de otros servicios locales</h1>
+    <form id="cotizadorForm">
+      <label for="servicio">Servicio:</label>
+      <select id="servicio" required></select>
+
+      <fieldset>
+        <legend>Extras:</legend>
+        <div id="extrasContainer"></div>
+      </fieldset>
+
+      <button type="submit">Calcular Cotización</button>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "servicios": [
+      { "id": 1, "nombre": "Alquiler de Lancha", "precio": 240000 },
+      { "id": 2, "nombre": "Paseo en Catamaran", "precio": 200000 },
+      { "id": 3, "nombre": "Excursión de Pesca", "precio": 350000 }
+    ],
+    "extras": [
+      { "id": 1, "nombre": "Guia de pesca Profesional", "precio": 40000 },
+      { "id": 2, "nombre": "Servicio de Catering", "precio": 15000 },
+      { "id": 3, "nombre": "Fotografía Profesional", "precio": 5000 }
+    ]
+  }
+  
